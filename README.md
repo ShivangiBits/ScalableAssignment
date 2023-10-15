@@ -23,7 +23,7 @@ returns in below format:
 	  ]
 	}
 ```
-3. To fetch data by purchase Id **/api/CSPurchaseRecord/purchaseId**
+2. To fetch data by purchase Id **/api/CSPurchaseRecord/purchaseId**
 pass purchaseId as paramater
 returns in below format:
 ```json
@@ -44,7 +44,7 @@ returns in below format:
 	  ]
 	}
 ```
-4. To Add purchase record **/api/CSPurchaseRecord**
+3. To Add purchase record **/api/CSPurchaseRecord**
 It required parameter as Json request in below format
 ```json
 	{
