@@ -4,6 +4,7 @@ Customer Purchase record service which is having 3 endpoints as below; it uses i
 <img width="927" alt="image" src="https://github.com/ShivangiBits/ScalableAssignment/assets/143605784/e4e603a7-0b5b-44b9-a489-139d69d4a4d1">
 
 1. To fetch data **/api/CSPurchaseRecord**
+   
 returns in below format:
 ```json
 	{
@@ -24,7 +25,9 @@ returns in below format:
 	}
 ```
 2. To fetch data by purchase Id **/api/CSPurchaseRecord/purchaseId**
+   
 pass purchaseId as paramater
+
 returns in below format:
 ```json
 	{
@@ -45,6 +48,7 @@ returns in below format:
 	}
 ```
 3. To Add purchase record **/api/CSPurchaseRecord**
+   
 It required parameter as Json request in below format
 ```json
 	{
