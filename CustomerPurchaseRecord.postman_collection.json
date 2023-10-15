@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "cd730882-e7f7-414b-9ae1-e29c335539c0",
+		"name": "CustomerPurchaseRecord",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30511876"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7016/api/CSPurchaseRecord",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7016/api/CSPurchaseRecord",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7016",
+					"path": [
+						"api",
+						"CSPurchaseRecord"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7016/api/CSPurchaseRecord",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"customerId\": 2,\r\n  \"purchaseDate\": \"2023-10-14\",\r\n  \"employeeId\": 12,\r\n  \"purchase_Details\": [\r\n    {\r\n      \"productId\": 12,\r\n      \"quantity\": 4,\r\n      \"rate\": 144\r\n    }\r\n\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7016/api/CSPurchaseRecord",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7016",
+					"path": [
+						"api",
+						"CSPurchaseRecord"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7016/api/CSPurchaseRecord/purchaseId?purchaseId=2013c966-ec7f-428a-87c7-8fb21ddd9000",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7016/api/CSPurchaseRecord/purchaseId?purchaseId=2013c966-ec7f-428a-87c7-8fb21ddd9000",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7016",
+					"path": [
+						"api",
+						"CSPurchaseRecord",
+						"purchaseId"
+					],
+					"query": [
+						{
+							"key": "purchaseId",
+							"value": "2013c966-ec7f-428a-87c7-8fb21ddd9000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

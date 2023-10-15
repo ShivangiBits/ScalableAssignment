@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "prpQ1gPhmg3RoBZcwivcWeHncjee90ai8yj29GUZgoQ=",
+  "Source": "CSPurchaseRecordService",
+  "BasePath": "_content/CSPurchaseRecordService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
