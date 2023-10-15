@@ -5,7 +5,7 @@ Customer Purchase record service which is having 3 endpoints as below; it uses i
 
 1. To fetch data **/api/CSPurchaseRecord**
 returns in below format:
-
+```json
 	{
 	  "purchaseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
 	  "customerId": 0,
@@ -22,11 +22,11 @@ returns in below format:
 	    }
 	  ]
 	}
-
+```
 3. To fetch data by purchase Id **/api/CSPurchaseRecord/purchaseId**
 pass purchaseId as paramater
 returns in below format:
-
+```json
 	{
 	  "purchaseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
 	  "customerId": 0,
@@ -43,10 +43,10 @@ returns in below format:
 	    }
 	  ]
 	}
-
+```
 4. To Add purchase record **/api/CSPurchaseRecord**
 It required parameter as Json request in below format
-
+```json
 	{
 	  "customerId": 2,
 	  "purchaseDate": "2023-10-14",
@@ -64,8 +64,9 @@ It required parameter as Json request in below format
 	    }
 	  ]
 	}
-
+```
 and returns
+```json
 {
     "purchaseId": "2013c966-ec7f-428a-87c7-8fb21ddd9000",
     "customerId": 2,
@@ -89,4 +90,4 @@ and returns
         }
     ]
 }
-
+```
