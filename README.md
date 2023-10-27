@@ -59,7 +59,6 @@ The Customer Purchase Record Microservice is a fundamental component of our e-co
 
 
 Feel free to customize this content to suit your specific microservice implementation and business requirements.
-<img width="927" alt="image" src="https://github.com/ShivangiBits/ScalableAssignment/assets/143605784/e4e603a7-0b5b-44b9-a489-139d69d4a4d1">
 
 # Execution Instruction
 1. To fetch data **/api/CSPurchaseRecord**
