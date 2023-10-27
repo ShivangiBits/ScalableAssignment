@@ -33,18 +33,15 @@ Purchase records contain sensitive customer and financial information. The micro
 It adheres to data protection regulations and security best practices to maintain customer trust and ensure compliance.
 
 ## How It Works
-### Purchase Recording: 
-When a customer completes a purchase, the microservice receives the purchase details, including the items selected and their quantities.
+1. Purchase Recording: When a customer completes a purchase, the microservice receives the purchase details, including the items selected and their quantities.
 
-### Total Amount Calculation: 
-The microservice immediately calculates the total amount to be paid based on the purchase items and their associated pricing.
+2. Total Amount Calculation: The microservice immediately calculates the total amount to be paid based on the purchase items and their associated pricing.
 
-### Data Storage: 
-The purchase details, along with the calculated total amount, are securely stored in the database, creating a comprehensive record of the transaction.
+3. Data Storage: The purchase details, along with the calculated total amount, are securely stored in the database, creating a comprehensive record of the transaction.
 
 ### Technology Stack
-### Programming Language: .NET Core 7
-### Database: IN memory database for example
+	Programming Language: .NET Core 7
+ 	Database: IN memory database for example
 
 # Benefits
 ## Improved Customer Experience: 
@@ -62,18 +59,16 @@ Our Customer Purchase Record service is designed for seamless deployment with Do
 
 ## Key Features:
 
-### Docker Compatibility: 
-The service is Docker-ready, allowing for easy containerization and deployment.
+1. Docker Compatibility: The service is Docker-ready, allowing for easy containerization and deployment.
 
-### Portable Image: 
-I have included a Docker image in a .tar file, making it accessible in our Git repository for your convenience.
+2. Portable Image: I have included a Docker image in a .tar file, making it accessible in our Git repository for your convenience.
 
-### Scalable: 
-Docker's containerization technology enables effortless scalability to handle varying workloads.
+3. Scalable: Docker's containerization technology enables effortless scalability to handle varying workloads.
 
 ## Getting Started:
 
-Pull the Docker Image: Retrieve the Docker image .tar file from our Git repository.
+### Pull the Docker Image: 
+Retrieve the Docker image .tar file from our Git repository.
 
 ### Load the Docker Image: 
 Use the docker load command to import the image into your Docker environment.
