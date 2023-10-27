@@ -1,8 +1,67 @@
 # ScalableAssignment
 For Scalable Assignment bits
 Customer Purchase record service which is having 3 endpoints as below; it uses in memory database
+# Customer Purchase Record Microservice
+The Customer Purchase Record Microservice is a component of our modern e-commerce system built on .NET Core 7. This microservice plays a crucial role in managing customer purchase records, capturing purchase details, and efficiently calculating the total amount to be paid for each transaction. It's designed to provide a seamless and responsive experience for our customers and streamline our internal operations.
+
+# Key Features
+## 1. Purchase Data Storage
+### Purchase Details: 
+The microservice captures and stores comprehensive purchase details for each transaction. This includes information such as the customer's identity, purchase items, quantities, and transaction timestamps.
+
+### Itemization: 
+It meticulously records individual items within a purchase, making it easy to retrieve and analyze specific product information.
+
+## 2. Real-time Calculation
+Total Amount Calculation: One of the microservice's core functionalities is real-time calculation of the total amount to be paid. It takes into account the purchase items and their respective quantities.
+
+Pricing Flexibility: Our system is designed to accommodate different pricing strategies, such as dynamic pricing, discounts, and promotions, and applies them to the calculation process.
+
+## 3. Performance Optimization
+### Efficiency: 
+The microservice is optimized for performance. It uses asynchronous processing and caching to ensure that the total amount is calculated quickly, even during high transaction loads.
+
+### Scalability: 
+It's designed to scale horizontally to handle an increasing number of customer transactions without compromising performance.
+
+## 4. Data Security
+### Data Protection: 
+Purchase records contain sensitive customer and financial information. The microservice employs robust security measures to protect this data, including encryption and access controls.
+
+### Compliance: 
+It adheres to data protection regulations and security best practices to maintain customer trust and ensure compliance.
+
+## How It Works
+### Purchase Recording: 
+When a customer completes a purchase, the microservice receives the purchase details, including the items selected and their quantities.
+
+### Total Amount Calculation: 
+The microservice immediately calculates the total amount to be paid based on the purchase items and their associated pricing.
+
+### Data Storage: 
+The purchase details, along with the calculated total amount, are securely stored in the database, creating a comprehensive record of the transaction.
+
+### Technology Stack
+### Programming Language: .NET Core 7
+### Database: IN memory database for example
+
+# Benefits
+## Improved Customer Experience: 
+Real-time total amount calculation provides transparency and convenience to our customers.
+
+## Operational Efficiency: 
+Our team gains insights into customer purchase behavior, helping us make data-driven decisions.
+
+## Scalability: 
+The microservice grows with our business, accommodating increasing customer transactions.
+
+The Customer Purchase Record Microservice is a fundamental component of our e-commerce system, empowering us to efficiently manage customer purchases, calculate total amounts, and enhance the overall shopping experience. It's a testament to our commitment to innovation and customer satisfaction.
+
+
+Feel free to customize this content to suit your specific microservice implementation and business requirements.
 <img width="927" alt="image" src="https://github.com/ShivangiBits/ScalableAssignment/assets/143605784/e4e603a7-0b5b-44b9-a489-139d69d4a4d1">
 
+# Execution Instruction
 1. To fetch data **/api/CSPurchaseRecord**
    
 returns in below format:
