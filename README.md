@@ -3,6 +3,7 @@ For Scalable Assignment bits
 Customer Purchase record service which is having 3 endpoints as below; it uses in memory database
 # Customer Purchase Record Microservice
 The Customer Purchase Record Microservice is a component of our modern e-commerce system built on .NET Core 7. This microservice plays a crucial role in managing customer purchase records, capturing purchase details, and efficiently calculating the total amount to be paid for each transaction. It's designed to provide a seamless and responsive experience for our customers and streamline our internal operations.
+This Repo also contain executable file as well docker file and image to directly load and run the service
 
 # Key Features
 ## 1. Purchase Data Storage
@@ -55,12 +56,34 @@ Our team gains insights into customer purchase behavior, helping us make data-dr
 ## Scalability: 
 The microservice grows with our business, accommodating increasing customer transactions.
 
-The Customer Purchase Record Microservice is a fundamental component of our e-commerce system, empowering us to efficiently manage customer purchases, calculate total amounts, and enhance the overall shopping experience. It's a testament to our commitment to innovation and customer satisfaction.
+# Customer Purchase Record Service - Docker Deployment
 
+Our Customer Purchase Record service is designed for seamless deployment with Docker, ensuring flexibility and scalability.I have made it easy for you to set up and run the service in your environment.
 
-Feel free to customize this content to suit your specific microservice implementation and business requirements.
+## Key Features:
 
-# Execution Instruction
+### Docker Compatibility: 
+The service is Docker-ready, allowing for easy containerization and deployment.
+
+### Portable Image: 
+I have included a Docker image in a .tar file, making it accessible in our Git repository for your convenience.
+
+### Scalable: 
+Docker's containerization technology enables effortless scalability to handle varying workloads.
+
+## Getting Started:
+
+Pull the Docker Image: Retrieve the Docker image .tar file from our Git repository.
+
+### Load the Docker Image: 
+Use the docker load command to import the image into your Docker environment.
+
+### Run the Container: 
+Deploy the Customer Purchase Record service by running a container based on the imported image.
+
+	docker run -p 8080:80 mycode/cspurchaserecordservice
+
+### Execution Instruction
 1. To fetch data **/api/CSPurchaseRecord**
    
 returns in below format:
@@ -153,3 +176,27 @@ and returns
     ]
 }
 ```
+## Usage and Customization:
+
+This service allows for easy integration and customization to fit your specific requirements.
+
+Explore the service's capabilities for managing customer purchase records and real-time total amount calculations.
+
+## Contributions:
+
+We welcome contributions to enhance and improve this service. Feel free to submit pull requests or report issues in our Git repository.
+
+For detailed deployment instructions and further information, please refer to our documentation.
+
+## License:
+
+This service is open-source and available under the license for your use.
+
+
+The Customer Purchase Record Microservice is a fundamental component of our e-commerce system, empowering us to efficiently manage customer purchases, calculate total amounts, and enhance the overall shopping experience. It's a testament to our commitment to innovation and customer satisfaction.
+
+
+Feel free to customize this content to suit your specific microservice implementation and business requirements.
+
+
+
