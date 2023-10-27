@@ -1,6 +1,6 @@
 # ScalableAssignment
 For Scalable Assignment bits
-Customer Purchase record service which is having 3 endpoints as below; it uses in memory database
+Customer Purchase record service which is having 3 endpoints as below; it uses in memory database; and docker image
 # Customer Purchase Record Microservice
 The Customer Purchase Record Microservice is a component of our modern e-commerce system built on .NET Core 7. This microservice plays a crucial role in managing customer purchase records, capturing purchase details, and efficiently calculating the total amount to be paid for each transaction. It's designed to provide a seamless and responsive experience for our customers and streamline our internal operations.
 This Repo also contain executable file as well docker file and image to directly load and run the service
